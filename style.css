@@ -88,3 +88,45 @@ body {
     transform: scale(1);
   }
 }
+
+/* Tablet (max-width: 768px) */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  .jumbo {
+    height: 350px;
+  }
+
+  .thumb {
+    width: 100px;
+    height: 75px;
+  }
+}
+
+/* Handphone (max-width: 480px) */
+@media (max-width: 480px) {
+  body {
+    padding: 20px 10px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .jumbo {
+    height: 250px;
+    border-radius: 10px;
+  }
+
+  .thumbnail {
+    gap: 10px;
+  }
+
+  .thumb {
+    width: 80px;
+    height: 60px;
+  }
+}
+
